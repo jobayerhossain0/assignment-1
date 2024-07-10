@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Azeret Mono", monospace;
+}
+/* navbar section starts here  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+.logo {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  text-align: left;
+}
+.resume {
+  padding: 15px 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+}
+/* navbar section ends here  */
