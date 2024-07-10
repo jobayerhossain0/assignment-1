@@ -62,6 +62,7 @@ nav {
   letter-spacing: 0%;
   text-align: center;
   margin-top: 20px;
+  opacity: 0.7;
 }
 .contact-me {
   padding: 15px 20px;
@@ -104,6 +105,7 @@ nav {
   font-size: 16px;
   font-weight: 400px;
   line-height: 26px;
+  opacity: 0.7;
 }
 .codeing-section-one {
   background-color: #fff;
@@ -128,6 +130,7 @@ nav {
   line-height: 26px;
   text-align: left;
   margin: 20px 0px;
+  opacity: 0.7;
 }
 .learn-more {
   padding: 10px 25px;
@@ -161,6 +164,7 @@ nav {
   line-height: 26px;
   text-align: center;
   margin: 30px 30px;
+  opacity: 0.7;
 }
 .video {
   margin: auto;
@@ -195,6 +199,7 @@ nav {
   line-height: 26px;
   text-align: center;
   margin: 30px 30px;
+  opacity: 0.7;
 }
 .Current-card-container {
   display: flex;
@@ -222,6 +227,7 @@ nav {
   line-height: 26px;
   text-align: left;
   margin: 20px 0;
+  opacity: 0.7;
 }
 .Current-card a {
   color: rgb(13, 19, 33);
@@ -256,6 +262,7 @@ nav {
   line-height: 26px;
   text-align: center;
   margin: 30px 0;
+  opacity: 0.7;
 }
 .genarel-card {
   display: flex;
@@ -265,7 +272,7 @@ nav {
   border: 2px solid #ddd;
   border-radius: 16px;
   padding: 40px;
-  margin-bottom: 40px ;
+  margin-bottom: 40px;
 }
 .genarel-description h5 {
   color: rgb(13, 19, 33);
@@ -281,8 +288,85 @@ nav {
   line-height: 26px;
   text-align: left;
   margin: 20px 0;
+  opacity: 0.7;
 }
-.genarel-description a{
-    color: rgb(13, 19, 33);
+.genarel-description a {
+  color: rgb(13, 19, 33);
 }
+.Support-section {
+  padding: 50px 100px;
+}
+.Support {
+ 
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
 
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+  padding: 50px;
+  opacity: 1.8 ;
+}
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.265);
+  border-radius: 16px;
+} */
+.Support h4 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.Support p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+  margin: 30px 0;
+}
+.input-main {
+  width: 680px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.input-mail {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 13px 15px;
+  border: none;
+  width: 100%;
+}
+.submit {
+  border: none;
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+
+  background: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+.input-mail::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+}
