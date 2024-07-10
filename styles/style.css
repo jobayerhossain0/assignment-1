@@ -223,18 +223,66 @@ nav {
   text-align: left;
   margin: 20px 0;
 }
-.Current-card a{
+.Current-card a {
+  color: rgb(13, 19, 33);
+}
+
+.second-card {
+  border-radius: 16px;
+
+  background: rgba(0, 76, 232, 0.05);
+}
+.thrd-card {
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
+}
+/* My Current Target section end here  */
+
+.next-target-section {
+  padding: 50px 100px;
+}
+.target-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.target-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin: 30px 0;
+}
+.genarel-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #ddd;
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 40px ;
+}
+.genarel-description h5 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+}
+.genarel-description p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin: 20px 0;
+}
+.genarel-description a{
     color: rgb(13, 19, 33);
 }
 
-.second-card{
-    border-radius: 16px;
-
-background: rgba(0, 76, 232, 0.05);
-}
-.thrd-card{
-    border-radius: 16px;
-
-background: rgba(255, 223, 0, 0.05);
-}
-/* My Current Target section end here  */
