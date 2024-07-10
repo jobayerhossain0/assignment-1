@@ -46,13 +46,9 @@ nav {
   padding: 40px 40px;
   border-top: 3px dashed #ddd;
   border-bottom: 3px dashed #ddd;
-
-
-
 }
 .banner-title {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 30px;
   font-weight: 800;
   line-height: 45px;
@@ -60,7 +56,6 @@ nav {
 }
 .banner-description {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -74,7 +69,6 @@ nav {
   border: 1px solid #000;
   border-radius: 8px;
   color: rgb(255, 255, 255);
-  font-family: Azeret Mono;
   font-size: 15px;
   font-weight: 600;
   line-height: 23px;
@@ -86,3 +80,65 @@ nav {
 }
 
 /* banner section end here   */
+
+/* Why Web Development starts section hare */
+.why-web {
+  padding: 100px 100px;
+}
+.container {
+  border-radius: 16px;
+  padding: 80px 80px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.why-web-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.why-web-description {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26px;
+}
+.codeing-section-one {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  margin-top: 30px;
+  gap: 30px;
+}
+.i-will-titel {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+.i-will-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin: 20px 0px;
+}
+.learn-more {
+  padding: 10px 25px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+}
+/* Why Web Development end section hare */
